@@ -1,15 +1,15 @@
-pipleline{
-    agent any
+pipeline {
 
-    stages{
+  agent any 
 
-        stage('build'){
-            steps{
+  stages{
+       stage("Build"){
+        steps {
 
-                echo 'test branch'
-
-            }
+            echo "Build on  test"
         }
+       }
 
+  }
 
 }
