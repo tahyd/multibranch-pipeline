@@ -1,16 +1,15 @@
-pipleline{
-    agent any
+pipeline {
 
-    stages{
+  agent any 
 
-        stage('build'){
-            steps{
+  stages{
+       stage("Build"){
+        steps {
 
-                echo 'master branch'
-
-            }
+            echo "Build on matser"
         }
-        }
+       }
 
+  }
 
 }
