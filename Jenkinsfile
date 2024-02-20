@@ -5,13 +5,15 @@ pipleline{
 
         stage('build'){
             steps{
-                echo 'dev branch'
+                echo 'dev branch1'
             }
         }
 
  stage('test'){
             steps{
+
                echo 'sample 1'
+
             }
         }
     }
