@@ -6,7 +6,7 @@ pipleline{
         stage('build'){
             steps{
 
-                echo 'master branch'
+               sh  "echo 'master branch'"
 
             }
         }
