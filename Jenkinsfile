@@ -11,7 +11,7 @@ pipleline{
 
  stage('test'){
             steps{
-                echo 'test on dev'
+               echo 'sample 1'
             }
         }
     }
