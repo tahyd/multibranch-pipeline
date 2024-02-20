@@ -5,7 +5,7 @@ pipleline{
 
         stage('build'){
             steps{
-                echo 'main branch'
+                echo 'test branch'
             }
         }
     }
