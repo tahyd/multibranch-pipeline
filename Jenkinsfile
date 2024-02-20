@@ -5,8 +5,11 @@ pipleline{
 
         stage('build'){
             steps{
+
                 echo 'test branch'
+
             }
         }
-    }
+
+
 }
